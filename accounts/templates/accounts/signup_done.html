@@ -1,0 +1,11 @@
+{% extends 'test1/base.html' %}
+{% block content %}
+
+<div class="container text-center">
+  <div class="jumbotron">
+    <h2>You have been successfully signed up</h2>
+    <a href="{% url 'login' %}">Go to Login</a>
+  </div>
+</div>
+
+{% endblock content %}
